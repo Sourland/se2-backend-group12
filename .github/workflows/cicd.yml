@@ -22,7 +22,7 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.SSH_PASSWORD }}
-          port: ${{ secretes.SSH_PORT }}
+          port: ${{ secrets.SSH_PORT }}
           script: |
             cd  ~/se2/12/se2-example-backend
             git reset --hard origin/main
