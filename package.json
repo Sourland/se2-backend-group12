@@ -22,7 +22,7 @@
     "express": "^4.17.1",
     "got": "^11.8.1",
     "helmet": "^4.4.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.11.17",
     "mongoose-beautiful-unique-validation": "^7.1.1",
     "morgan": "^1.10.0",
@@ -33,7 +33,7 @@
     "yup": "^0.32.9"
   },
   "devDependencies": {
-    "ava": "^5.0.1",
+    "ava": "^5.1.0",
     "c8": "^7.12.0",
     "eslint": "^7.20.0",
     "eslint-config-airbnb": "^18.2.1",
@@ -41,7 +41,7 @@
     "eslint-plugin-ava": "^11.0.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react": "^7.32.2",
     "got": "^11.8.1",
     "husky": "^5.0.9",
     "lint-staged": "^10.5.4",

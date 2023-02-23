@@ -19,17 +19,13 @@ test.after.always((t) => {
   t.context.server.close();
 });
 
-test('GET /statistics returns correct response and status code', async (t) => {
-  const {body, statusCode} = await t.context.got('general/statistics');
-  t.is(body.sources, 1);
+test('GET /dashboards returns correct response and status code', async (t) => {
+  const {body, statusCode} = await t.context.got('dashboards/dashboards')
+  t.is(body.dashboards, 1);
   t.assert(body.success);
   t.is(statusCode, 200);
 });
 
-test('GET /sources returns correct response and status code', async (t) => {
-  const token = jwtSign({id: 1});
-  const {statusCode} = await t.context.got(`sources/sources?token=${token}`);
-  t.is(statusCode, 200);
-});
-
-
+// test('POST /create-dashboards'), async (t) => {
+//
+// }
